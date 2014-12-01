@@ -6,4 +6,4 @@ var isStudent = true; // Boolean Variable
 
 var firstName = "Nicole";
 
-
+var phrase = 'I don\'t know';
