@@ -1,3 +1,5 @@
-/**
- * Created by nicolestiner on 12/2/14.
- */
+//Prompt and Alert
+
+var userInput = prompt("Enter your year of birth");
+console.log(userInput);
+
