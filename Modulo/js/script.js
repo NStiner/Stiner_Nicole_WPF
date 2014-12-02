@@ -1,3 +1,5 @@
-/**
- * Created by nicolestiner on 12/1/14.
- */
+//Expressions - Modulo Operator
+
+var remainder = 32 / 10;
+console.log(remainder);
+
