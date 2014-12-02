@@ -1,3 +1,6 @@
-/**
- * Created by nicolestiner on 12/1/14.
- */
+//Expressions - Assignment Operators
+
+var a = 3;
+a = a + 4;
+console.log(a);
+
