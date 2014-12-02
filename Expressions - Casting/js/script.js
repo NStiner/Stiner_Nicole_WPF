@@ -1,6 +1,9 @@
 //Casting - treating strings like numbers
 
-var stringVar = "6;"
-var result = 7 + Number(stringVar); //convert stringVar into a number
-console.log(result);
+var areaCode = 407;
+var firstPart = 203;
+var secPart = 4529;
+
+var phoneNo = String(areaCode) + String(firstPart) + String(SecPart);
+console.log(phoneNo);
 
