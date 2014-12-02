@@ -6,3 +6,4 @@ var b = "7";
 var result = a + b;
 console.log(result);
 
+
