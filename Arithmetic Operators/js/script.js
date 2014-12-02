@@ -1,3 +1,5 @@
-/**
- * Created by nicolestiner on 12/1/14.
- */
+//Expressions - Arithmetic Operators
+
+// area of the triangle is half of the width times the height
+var width = 4;
+var height = 5;
