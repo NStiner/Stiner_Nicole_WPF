@@ -17,3 +17,16 @@ var orderedPizzas = 10;
 var slicesPerPerson = (orderedPizzas * slicesPerPizza) / numberOfPeople;
 //printing out the result for slicesPerPerson
 console.log("Each person ate " + slicesPerPerson + " slices of pizza at the party.");
+
+
+
+
+
+//Calculate sparkys leftover amount after even distribution to party people
+var slicesPerPizza = 8;
+var numberOfPeople = 23;
+var orderedPizzas = 10;
+//multiply orderedPizzas and slicesPerPizza and divide by the number of people to give sparky leftovers
+var sparkyFood = (orderedPizzas * slicesPerPizza) % numberOfPeople;
+console.log(" Sparky got "  +  sparkyFood  +  " slices of pizza.");
+//printing out the result for sparkys leftover amount
