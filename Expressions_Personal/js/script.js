@@ -5,3 +5,6 @@ var pricePerGallon = prompt ("Enter the price per gallon"); // Tells the user to
 var milesWeek = prompt ("Enter the amount of miles you travel in a week"); // has the user enter the miles they drove that week
 var amount =  milesWeek * pricePerGallon; // this calculates how much you will spend per gallon within the week
 
+alert (" You will spend " + amount + " in gas per week.")
+//testing
+console.log("amount");
