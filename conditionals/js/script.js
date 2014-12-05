@@ -4,7 +4,7 @@
 If(condition){
    Actions
    }
- */
+
 
 sunny = true
 if(sunny){
@@ -17,7 +17,7 @@ if(sunny){
    GoToTheBeach();
 }
     This would cancel out because sunny = false, so I wont go to beach
-*/
+
 
 //to create an alternative :
 if(sunny){
@@ -59,3 +59,6 @@ if(sunny) {
 }
 //we dont want to put the new suit option under the movies because you dont want to wear your suit to the movies, so you must nest
 
+/*
+
+ */
