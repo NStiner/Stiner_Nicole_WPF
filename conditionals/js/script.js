@@ -45,3 +45,17 @@ if (temp == 75){
 }
 
 //two equal signs compares the variables
+
+
+//Nesting Conditionals
+if(sunny) {
+    GoToTheBeach();
+
+    if (warmWater) {
+        wearNewSuit();
+    }
+}else{
+    GoToTheMovies();
+}
+//we dont want to put the new suit option under the movies because you dont want to wear your suit to the movies, so you must nest
+
