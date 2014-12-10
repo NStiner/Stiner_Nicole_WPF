@@ -1,4 +1,4 @@
-//guessing shirt and birth month say about ouy
+//Find out what your shirt color says about you!
 
 alert("Find out what your shirt color says about you!");
 
