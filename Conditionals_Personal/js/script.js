@@ -12,13 +12,13 @@ if(ageEntered < 5){
     var tempEntered = prompt("Please enter the temperature outside");
 }
 
-if(ageEntered <= 10 <= 5 && tempEntered >= 70){
+if((ageEntered >5 && ageEntered <=10) && tempEntered >= 70){
         console.log("You get to play outside!");
 }else{
         console.log("Sorry, due to the weather you must play indoors!")
     }
 
-if(ageEntered >= 11 <= 17 && tempEntered >= 70){
+if((ageEntered >=11 && ageEntered <= 17) && tempEntered >= 70){
         console.log("You get to play dodgeball");
 } else if( tempEntered < 70) {
     console.log("You get to play kickball!");

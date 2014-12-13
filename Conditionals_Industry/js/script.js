@@ -7,7 +7,7 @@ var newHires = prompt("Please enter the amount of new applicants you would like 
 
 
 //the profit is accumulation minus employees, checks and goods costs
-var profit = ("weeklyAccumulation - (amountOfPaychecks + totalCostForGoods)");
+var profit = (weeklyAccumulation - (amountOfPaychecks + totalCostForGoods));
 
 
 if(newHires == 0){
