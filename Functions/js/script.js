@@ -1,12 +1,8 @@
-//Functions - Variable Scope
+//Functions - Parameters and Arguments
 
-var width = 5;
+calcArea();
 
 function calcArea(){
-    var width = 20;
-    var height = 30;
-    var area = width * height;
-    //console.log(area);
+    var area = w * h;
+    console.log(area);
 }
-console.log(width);
-calcArea();
