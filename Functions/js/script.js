@@ -1,8 +1,8 @@
 //Functions - Parameters and Arguments
 
-calcArea();
+calcArea(30, 20); //arguments
 
-function calcArea(){
+function calcArea(w, h){ //parameters 
     var area = w * h;
     console.log(area);
 }
