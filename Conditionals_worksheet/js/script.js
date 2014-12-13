@@ -2,7 +2,9 @@
 // c = (F-32)*.56  and  F = C * 1.8 + 32
 var temperature = prompt ("Please enter the temperature you wish to convert. \n Please be specific by using C for Celsius \n and F for Fahrenheit.");
 
-if( temperature = )
+if( temperature == {
+    console.log()
+}
 
 
 
