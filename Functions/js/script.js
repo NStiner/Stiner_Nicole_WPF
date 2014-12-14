@@ -1,12 +1,12 @@
 //Functions - Returning Values
 
-calcArea(30, 20);
+var total = calcArea(30, 20); //what ever returns store to variable total
 
-function calArea(w, h){
-    var are = w * h;
-
+function calcArea(w, h){
+    var area = w * h;
+    return area; //function is spitting the info out
 }
 
-console.log(area);
+console.log(total);
 
 
