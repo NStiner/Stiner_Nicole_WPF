@@ -1,9 +1,9 @@
 //Functions - Anonymous Functions
 
 
-var functionName = function(){
-    //code to run
+var calcArea = function(width, height){
+//code the function runs
+    var area = width * height;
+    return area;
 }
 
-
-functionName();
