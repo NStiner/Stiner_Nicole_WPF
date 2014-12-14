@@ -21,3 +21,8 @@ do {
 while(c > 0);
 */
 
+// for loop
+
+for (var i = 10; i > 0, i--;){
+    console.log(i + " kegs on the wall")
+}
