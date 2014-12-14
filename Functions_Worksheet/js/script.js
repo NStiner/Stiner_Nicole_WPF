@@ -9,3 +9,4 @@ function totalBeeStings(weight){
 }
 
 totalBeeStings(40);
+totalBeeStings(80);
