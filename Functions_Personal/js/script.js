@@ -16,3 +16,4 @@ if(prompt2 >=4 && prompt2 <= 8 && caloriesNeeded < caloriesNeededPerDay){
 }else{
     console.log("You have consumed the correct amount of calories you need each day! Good Job!");
 }
+
