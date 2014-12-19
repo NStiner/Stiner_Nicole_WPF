@@ -1,7 +1,7 @@
 //Track Your Diet! Count Your Calories!
 
 alert = ("We are going to track your diet!");
-prompt1 = prompt ("Please enter your gender. Use F for female and M for male.");
+prompt1 = prompt("Please enter your gender. Use F for female and M for male.");
 prompt2 = prompt("Please enter your age");
 prompt3 = prompt("Please enter how many calories you have consumed so far today");
 
@@ -16,7 +16,6 @@ if(prompt2 >= 4 && prompt2 <= 8 && caloriesNeeded < caloriesNeededPerDay){
 }else{
     console.log("You have consumed the correct amount of calories you need each day! Good Job!");
 }
-
 
 
 if(prompt2 >= 9 && prompt2 <= 18 && caloriesNeeded < 2000){
