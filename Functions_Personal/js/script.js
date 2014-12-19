@@ -45,7 +45,7 @@ if(prompt2 >= 31 && prompt2 <= 50 && caloriesNeeded < 2200){
 
 if(prompt2 <= 51 && caloriesNeeded < 1800){
     console.log("You still need to consume " + caloriesNeeded + " calories in order to reach your daily needed amount!");
-}else if(prompt2 >= 4 && prompt2 <= 30 && caloriesNeeded >= 1800){
+}else if(prompt2 <= 51 && caloriesNeeded >= 1800){
     console.log("You have consumed the correct amount of calories you need each day! Good Job!");
 }else{
     console.log("You have consumed the correct amount of calories you need each day! Good Job!");
